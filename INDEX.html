@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale="> 
+    <title>Ak trail website design - by AK</title>  
+    <link rel="stylesheet" href="STYLE.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins:ital,wght@0,300;0,600;1,100;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+        <section class="header">
+            <nav>
+                <a href="HOME.html"><img src="IMAGES/LOGO1.png"></a>
+                <div class="nav-links" id="NavLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="INDEX.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Course.html">COURSE</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+<div class="text-box">
+  <h1>Make my father proud</h1>
+  <p>This is my trail website i make this website by my own by using HTML,JavaScipt,CSS <br>Thanks to visit</p>
+  <a href="" class="hero-btn">Visit To Know More.</a>
+</div>
+
+</section>
+
+<!----Course--->
+
+<section class="course">
+    <h1>Course We offered</h1>
+    <p>great learning by highly train teacher</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>A B C D E F G H I J K L M N O P Q R S T U V W X Z Y</p>
+        </div>
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>A B C D E F G H I J K L M N O P Q R S T U V W X Z Y</p>
+        </div>
+        <div class="course-col">
+            <h3>Postgraution</h3>
+            <p>A B C D E F G H I J K L M N O P Q R S T U V W X Z Y</p>
+        </div>
+    </div>
+
+
+</section>
+<!-------------campus------------>
+
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Perfect Place make you perfect</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="IMAGES/newyork.png">
+            <div class="layer">
+                <h3>LIBRARY</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="IMAGES/london.png">
+            <div class="layer">
+                <h3>NALPO</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="IMAGES/washington.png">
+            <div class="layer">
+                <h3>Girls Hostel</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!---------Facilities----------->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>We gave you the All facilities to improve your skill</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="IMAGES/library.png">
+            <h3>World class library</h3>
+            <p>Book give us the knowledge</p>
+        </div>
+        <div class="facilities-col">
+            <img src="IMAGES/basketball.png">
+            <h3>Largest playground</h3>
+            <p>Lets play to fit</p>
+        </div>
+        <div class="facilities-col">
+            <img src="IMAGES/cafeteria.png">
+            <h3>Tasty and healthy food</h3>
+            <p>Don't waste food give it to needy people</p>
+        </div>
+    </div>
+
+</section>
+
+<!--------Testimonials-------->
+
+<section class="testimonials">
+    <h1>What our Students says</h1>
+    <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="IMAGES/user1.jpg">
+            <div>
+                <p>This is the best college i have seen ever</p>
+                <h3>DOLI</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i> 
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="IMAGES/user2.jpg">
+            <div>
+                <p>in this college teaching method is very nice and it help to learn betterly</p>
+                <h3>RAKIBUL ISLAM</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-------Call to Action------->
+<section class="cta">
+    <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>  
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!--------Footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z </p>
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-youtube"></i>
+    </div>
+    <P>Made with <i class="fa fa-heart-o"></i>by AK</P>
+
+</section>
+<!--------------JavaScript for Toggle Menu----------->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
